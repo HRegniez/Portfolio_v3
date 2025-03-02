@@ -27,7 +27,7 @@ export default function About() {
     <div className="max-w-4xl">
       {/* Personal Details Section */}
       <div className="mb-12 bg-white p-6 rounded-xl shadow-sm border border-neutral-200">
-        <div className="flex justify-between md:flex-row gap-8 items-start">
+        <div className="flex flex-col-reverse md:justify-between md:flex-row gap-8 items-center md:items-start">
         <div className="space-y-4">
             <div>
               <Heading as="h1" className="text-2xl mb-2">Henri Régniez</Heading>
@@ -66,13 +66,13 @@ export default function About() {
               ))}
             </div>
           </div>
-          <div className="rounded-xl w-56 h-56 overflow-hidden">
+          <div className="rounded-xl w-32 h-32 md:w-56 md:h-56 flex-shrink-0 overflow-hidden">
             <Image
               src="/images/profile.jpeg"
               alt="Henri Régniez"
               width={384}
               height={384}
-              className="rounded-full object-cover"
+              className="w-full h-full object-cover rounded-full"
             />
           </div>
           

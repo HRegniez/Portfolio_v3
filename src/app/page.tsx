@@ -18,7 +18,7 @@ export default function Home() {
         <strong>React</strong>, <strong>Next.js</strong>, and{" "}
         <strong>Tailwind CSS</strong>.
       </Paragraph>
-      <Paragraph className="mt-24 w-2/3 ml-auto text-gray-900 text-end">
+      <Paragraph className="mt-24 md:w-2/3 w-full ml-auto text-gray-900 md:text-end text-left">
         I specialize in building performant, scalable web applications. My expertise in modern
         front-end technologies allows me to create responsive, accessible, and
         visually attractive interfaces.
