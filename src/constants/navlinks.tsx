@@ -1,7 +1,6 @@
 import {
   IconBolt,
   IconBriefcase2,
-  IconMail,
   IconMessage2,
 } from "@tabler/icons-react";
 
