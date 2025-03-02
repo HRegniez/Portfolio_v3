@@ -28,7 +28,7 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
-            className="px-6 z-[100] py-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/90 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col border-r"
+            className="px-6 z-[100] py-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/90 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col pb-10 border-r"
           >
             <div className="flex-1 overflow-y-auto min-h-0">
               <SidebarHeader />
@@ -40,7 +40,7 @@ export const Sidebar = () => {
                 href="/contact"
                 onClick={() => isMobile() && setOpen(false)}
                 className={twMerge(
-                  "bg-primary text-primary-foreground shadow hover:bg-primary/90 transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm",
+                  "bg-primary text-primary-foreground shadow hover:bg-primary/90 transition duration-200 flex items-center space-x-2 py-2 px-2 mb-8 rounded-md text-sm",
                   isActive("/contact") && "bg-accent text-accent-foreground shadow-sm"
                 )}
               >
