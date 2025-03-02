@@ -34,8 +34,6 @@ export const products = [
     slug: "data-react",
     content: (
       <div>
-        <p>Technologies Used: <strong>React</strong>, <strong>Tailwind CSS</strong></p>
-        
         <h2>Overview</h2>
         <p>This project is a <Highlight>modern, visually appealing website</Highlight> built as a hands-on exercise to improve my skills. The goal was to focus on <Highlight>user experience and design trends</Highlight>, ensuring a clean and engaging UI without a backend.</p>
         
@@ -74,8 +72,6 @@ export const products = [
     slug: "atelier-tour-a-tour",
     content: (
       <div>
-        <p>Technologies Used: <strong>React</strong>, <strong>Sass</strong>, <strong>Supabase</strong></p>
-        
         <h2>Overview</h2>
         <p>A <Highlight>dynamic professional website</Highlight> for a sharpening and grinding artisan, featuring <Highlight>full content management capabilities</Highlight> and an <Highlight>optimized gallery system</Highlight>.</p>
         
@@ -102,8 +98,6 @@ export const products = [
     slug: "3d-materials",
     content: (
       <div>
-        <p>Technologies Used: <strong>Three.js</strong>, <strong>HTML5</strong>, <strong>JavaScript</strong></p>
-
         <h2>Overview</h2>
         <p>An <Highlight>interactive 3D material exploration</Highlight> project showcasing different <strong>Three.js</strong> material types through a <Highlight>user-friendly interface</Highlight>.</p>
 
@@ -138,8 +132,6 @@ export const products = [
     slug: "portfolio-v1",
     content: (
       <div>
-        <p>Technologies Used: <strong>React</strong>, <strong>Sass</strong>, <strong>Vite</strong>, <strong>GSAP</strong></p>
-
         <h2>Overview</h2>
         <p>A <Highlight>visually striking portfolio</Highlight> featuring <Highlight>advanced animations</Highlight> and interactive elements.</p>
 
@@ -163,8 +155,6 @@ export const products = [
     slug: "shooter-game",
     content: (
       <div>
-        <p>Technologies Used: <strong>JavaScript</strong>, <strong>HTML5 Canvas</strong>, <strong>GSAP</strong></p>
-
         <h2>Overview</h2>
         <p>A <Highlight>browser-based shooter game</Highlight> featuring <Highlight>smooth animations</Highlight> and engaging gameplay mechanics.</p>
 
@@ -216,8 +206,6 @@ export const products = [
     slug: "sunnyside",
     content: (
       <div>
-        <p>Technologies Used: <strong>HTML5</strong>, <strong>SCSS</strong>, <strong>JavaScript</strong></p>
-
         <h2>Overview</h2>
         <p>A <Highlight>responsive landing page</Highlight> with <Highlight>sophisticated animations</Highlight> and interactive elements.</p>
 
@@ -322,8 +310,6 @@ export const products = [
     slug: "interactive-rating",
     content: (
       <div>
-        <p>Technologies Used: <strong>HTML5</strong>, <strong>SCSS</strong>, <strong>Vanilla JavaScript</strong></p>
-
         <h2>Overview</h2>
         <p>This project is a small <Highlight>interactive component</Highlight> built to practice handling user interactions and updating the <strong>DOM</strong> efficiently using <strong>vanilla JavaScript</strong>. It was developed as part of a Frontend Mentor challenge and focuses on <Highlight>clean code and performance optimization</Highlight>.</p>
 
@@ -361,8 +347,6 @@ export const products = [
     slug: "nina-carducci",
     content: (
       <div>
-        <p>Technologies Used: <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Bootstrap</strong>, <strong>jQuery</strong></p>
-
         <h2>Overview</h2>
         <p>As part of my OpenClassrooms web development course, I worked on <Highlight>optimizing the performance, SEO, and accessibility</Highlight> of the Nina Carducci website. The project focused on improving loading times based on <strong>Lighthouse</strong> audit results and enhancing accessibility using the <strong>Wave</strong> extension.</p>
 
@@ -391,8 +375,6 @@ export const products = [
     slug: "expenses-chart",
     content: (
       <div>
-        <p>Technologies: <strong>HTML</strong>, <strong>SCSS</strong>, <strong>Vanilla JavaScript</strong>, <strong>JSON</strong></p>
-
         <h2>Overview</h2>
         <p>This project was a self-imposed challenge based on a Frontend Mentor design, aimed at improving my ability to work with imported <strong>JSON</strong> data and enhancing my algorithmic skills. The main goal was to create a <Highlight>dynamic bar chart</Highlight> that visually represents expenses for each day of the week, adjusting bar heights based on real data.</p>
 

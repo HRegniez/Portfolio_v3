@@ -28,7 +28,7 @@ export const Sidebar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.2, ease: "linear" }}
             exit={{ x: -200 }}
-            className="px-6 z-[100] py-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col justify-between border-r"
+            className="px-6 z-[100] py-10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/90 max-w-[14rem] lg:w-fit fixed lg:relative h-screen left-0 flex flex-col justify-between border-r"
           >
             <div className="flex-1 overflow-auto">
               <SidebarHeader />
