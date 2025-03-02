@@ -97,7 +97,7 @@ export default function About() {
                 <skill.icon style={{ color: skill.color }} className="md:h-6 md:w-6 h-8 w-8" />
                 <div>
                   <strong className="text-gray-900 text-lg">{skill.title}</strong> <br className="block md:hidden" />
-                  <span className="text-gray-600 ml-2">— {skill.desc}</span>
+                  <span className="text-gray-600 md:text-sm text-xs ml-2">— {skill.desc}</span>
                 </div>
               </div>
             ))}
