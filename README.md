@@ -2,8 +2,7 @@
 
 A sleek and modern portfolio template built with Next.js, featuring a unique side-focused design. Originally inspired by [Aceternity UI](https://ui.aceternity.com/templates/sidefolio).
 
-![Sidefolio Preview]
-[Add a preview image of your portfolio here]
+Live preview: [portfolio_v3](https://portfolio-v3-pearl-kappa.vercel.app/)
 
 ## ✨ Features
 
