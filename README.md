@@ -1,5 +1,5 @@
 # Sidefolio - Modern Portfolio
-A sleek and modern portfolio template built with Next.js, featuring a unique side-focused design. 
+A sleek and modern portfolio built with Next.js, featuring a unique side-focused design. 
 
 Live preview: [portfolio_v3](https://portfolio-v3-pearl-kappa.vercel.app/)
 
