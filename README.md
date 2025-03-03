@@ -111,10 +111,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com)
 - [Framer Motion](https://www.framer.com/motion)
 
-## 📧 Support
-
-For support, please email [your-email] or create an issue in this repository.
-
 ---
 
 ⭐ If you found this template helpful, please consider giving it a star!
