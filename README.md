@@ -1,4 +1,5 @@
-# Sidefolio - Modern Portfolio Template
+# Sidefolio - Modern Portfolio
+A sleek and modern portfolio built with Next.js, featuring a unique side-focused design. 
 
 A sleek and modern portfolio template built with Next.js, featuring a unique side-focused design. Originally inspired by [Aceternity UI](https://ui.aceternity.com/templates/sidefolio).
 
@@ -62,13 +63,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - [Aceternity UI](https://ui.aceternity.com) for the original design inspiration
+- [Shadcn/ui](https://ui.shadcn.com/)
 - [Next.js](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 - [Framer Motion](https://www.framer.com/motion)
-
-## 📧 Support
-
-For support, please email [your-email] or create an issue in this repository.
 
 ---
 
