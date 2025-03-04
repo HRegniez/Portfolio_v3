@@ -2,8 +2,7 @@
 
 A sleek and modern portfolio template built with Next.js, featuring a unique side-focused design. Originally inspired by [Aceternity UI](https://ui.aceternity.com/templates/sidefolio).
 
-![Sidefolio Preview]
-[Add a preview image of your portfolio here]
+[Portfolio Preview](https://portfolio-v3-pearl-kappa.vercel.app/)
 
 ## ✨ Features
 
@@ -28,37 +27,6 @@ A sleek and modern portfolio template built with Next.js, featuring a unique sid
 - **Linting:** ESLint
 - **Contact Form:** EmailJS
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone [your-repo-url]
-   cd sidefolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Set up environment variables**
-   Create a `.env.local` file in the root directory:
-   ```env
-   EMAILJS_PUBLIC_KEY=your_emailjs_public_key
-   EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-   EMAILJS_SERVICE_ID=your_emailjs_service_id
-   ```
-
-4. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## 📁 Project Structure
 
@@ -73,20 +41,6 @@ sidefolio/
 ├── public/              # Static assets
 └── styles/             # Global styles
 ```
-
-## 🎨 Customization
-
-1. **Colors and Theme**
-   - Edit `tailwind.config.ts` to modify the color scheme and theme
-   - Update global styles in `src/app/globals.css`
-
-2. **Content**
-   - Modify content in the MDX files
-   - Update project data in `src/constants`
-
-3. **Components**
-   - Customize components in `src/components`
-   - Add new animations using Framer Motion
 
 ## 📦 Deployment
 

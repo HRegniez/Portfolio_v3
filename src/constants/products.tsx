@@ -19,10 +19,60 @@ import ninaCarducci01 from "../../public/images/ninaCarducci-01.webp";
 import ninaCarducci02 from "../../public/images/ninaCarducci-02.webp";
 import ninaCarducci03 from "../../public/images/ninaCarducci-03.webp";
 import expenseChart01 from "../../public/images/expenseChart-01.webp";
+import marcheBruno01 from "../../public/images/marcheBruno-01.webp";
+import marcheBruno02 from "../../public/images/marcheBruno-02.webp";
 
 import { Highlight } from "@/components/Highlight";
 
 export const products = [
+  {
+    href: "https://marche-de-bruno.vercel.app/",
+    githubLink: "https://github.com/HRegniez/March-_de_Bruno",
+    title: "(In progress...) Le Petit Marché de Bruno",
+    description: "Web site for a local grocery business in Grenoble, specializing in fresh fruits, vegetables, and specialty grocery items. soon to be an e-commerce platform.",
+    thumbnail: marcheBruno01,
+    images: [marcheBruno01, marcheBruno02],
+    stack: ["NEXT.JS", "TYPESCRIPT", "TAILWIND", "SUPABASE"],
+    slug: "le-petit-marche-de-bruno",
+    content: (
+      <div>
+        <h2>Overview</h2>
+        <p>Le Petit Marché de Bruno is a <Highlight>modern e-commerce platform</Highlight> for a local grocery business in Grenoble, built with <strong>Next.js 15</strong> and <strong>TypeScript</strong>. The platform bridges traditional local commerce with innovative digital solutions, featuring a <Highlight>responsive design</Highlight> and <Highlight>smooth user experience</Highlight>.</p>
+        
+        <h2>Key Features</h2>
+        <ul>
+          <li><Highlight>Modern UI/UX:</Highlight> Built with <strong>React 19</strong> and styled using <strong>Tailwind CSS</strong></li>
+          <li><Highlight>Interactive Maps:</Highlight> Google Maps integration for store location</li>
+          <li><Highlight>Dynamic Content:</Highlight> Real-time product updates and inventory management</li>
+          <li><Highlight>Type Safety:</Highlight> Written in <strong>TypeScript</strong> for robust development</li>
+        </ul>
+        
+        <h2>Technical Stack</h2>
+        <ul>
+          <li><strong>Frontend:</strong> Next.js 15, TypeScript, Tailwind CSS, Radix UI, Framer Motion</li>
+          <li><strong>Backend:</strong> Supabase (Authentication, Database, Storage)</li>
+          <li><strong>Deployment:</strong> Vercel</li>
+        </ul>
+        
+        <h2>Business Features</h2>
+        <ul>
+          <li><Highlight>Local Fresh Produce:</Highlight> Fresh fruits and vegetables sourced from local producers</li>
+          <li><Highlight>Specialty Grocery Items:</Highlight> Curated selection of fine grocery products</li>
+          <li><Highlight>Location:</Highlight> 99 Cr Berriat, 38000 Grenoble</li>
+          <li><Highlight>Business Hours:</Highlight> Monday-Saturday: 8h-19h30, Sunday: 8h-13h</li>
+        </ul>
+        
+        <h2>Future Development</h2>
+        <p>The platform is actively being developed with upcoming features including:</p>
+        <ul>
+          <li>Order Management System</li>
+          <li>Cryptocurrency Payments</li>
+          <li>Inventory Management</li>
+          <li>Admin Dashboard for product management</li>
+        </ul>
+      </div>
+    ),
+  },
   {
     href: "https://hregniez.github.io/data_react_tailwind/",
     githubLink: "https://github.com/HRegniez/data_react_tailwind",
