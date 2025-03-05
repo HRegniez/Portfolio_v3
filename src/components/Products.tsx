@@ -125,8 +125,7 @@ export const Products = ({ limit, showLoadMore = false, showFilter = true }: Pro
                     {product.title}
                   </Heading>
                   <Paragraph 
-                    className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl text-gray-900 transition-all duration-300 group-hover:scale-[1.02] group-hover:translate-x-1"
-                    style={{ transform: "translateZ(20px)" }}
+                    className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl text-gray-900 transition-all duration-300 group-hover:scale-[1.02] group-hover:translate-x-1 transform translate-z-20"
                   >
                     {product.description}
                   </Paragraph>
