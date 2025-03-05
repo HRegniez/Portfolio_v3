@@ -25,13 +25,11 @@ export const Products = ({ limit, showLoadMore = false, showFilter = true }: Pro
   const [displayCount, setDisplayCount] = useState(4);
   const [selectedStack, setSelectedStack] = useState<string>();
 
-  // Get unique tech stacks
   const uniqueStacks = useMemo(() => {
     const stacks = products.flatMap(product => product.stack || []);
     return Array.from(new Set(stacks));
   }, []);
 
-  // Updated filtering logic for single selection
   const filteredProducts = useMemo(() => {
     if (!selectedStack || selectedStack === "all") return products;
     return products.filter(product => 
@@ -62,7 +60,7 @@ export const Products = ({ limit, showLoadMore = false, showFilter = true }: Pro
             value={selectedStack}
             onValueChange={(value) => {
               setSelectedStack(value);
-              setDisplayCount(4); // Reset display count when filter changes
+              setDisplayCount(4);
             }}
           >
             <SelectTrigger>
@@ -93,37 +91,54 @@ export const Products = ({ limit, showLoadMore = false, showFilter = true }: Pro
               x: 0,
             }}
             transition={{ duration: 0.2, delay: idx * 0.1 }}
+            className="group"
+            style={{ perspective: "1000px" }}
           >
             <Link
               href={product.slug ? `/projects/${product.slug}` : product.href}
-              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 p-4"
+              className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl p-4 
+                transition-all duration-300 ease-out
+                block transform-gpu hover:[transform:rotateX(2deg)_rotateY(4deg)]"
+              style={{ transformStyle: "preserve-3d" }}
             >
-              <div className="w-[250px] h-[150px] flex-shrink-0">
+              <div 
+                className="w-[250px] h-[150px] flex-shrink-0 transition-all duration-300"
+                style={{ transform: "translateZ(50px)" }}
+              >
                 <Image
                   src={product.thumbnail}
                   alt="thumbnail"
                   height={200}
                   width={200}
-                  className="rounded-md object-cover w-full h-full"
+                  className="rounded-md object-cover w-full h-full group-hover:scale-105"
                 />
               </div>
-              <div className="flex flex-col justify-between">
+              <div 
+                className="flex flex-col justify-between"
+                style={{ transform: "translateZ(30px)" }}
+              >
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg"
+                    className="font-black text-lg md:text-lg lg:text-lg transition-all duration-300 group-hover:scale-105 group-hover:translate-x-2"
                   >
                     {product.title}
                   </Heading>
-                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl text-gray-900">
+                  <Paragraph 
+                    className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl text-gray-900 transition-all duration-300 group-hover:scale-[1.02] group-hover:translate-x-1"
+                    style={{ transform: "translateZ(20px)" }}
+                  >
                     {product.description}
                   </Paragraph>
                 </div>
-                <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
+                <div 
+                  className="flex space-x-2 md:mb-1 mt-2 md:mt-0"
+                  style={{ transform: "translateZ(10px)" }}
+                >
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-xs md:text-xs lg:text-xs bg-gray-100 px-2 py-1 rounded-sm text-gray-900"
+                      className="text-xs md:text-xs lg:text-xs bg-gray-100 px-2 py-1 rounded-sm text-gray-900 transition-all duration-300 group-hover:scale-[1.01]"
                     >
                       {stack}
                     </span>
