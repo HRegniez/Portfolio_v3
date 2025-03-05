@@ -29,7 +29,7 @@ export const Contact = () => {
         'contact_form',
         {
           from_name: formData.name.value,
-          from_email: formData.email.value,
+          from_mail: formData.email.value,
           message: formData.message.value
         },
         'ZccqbXOP5Mcp63maJ'
