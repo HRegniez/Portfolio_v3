@@ -25,13 +25,13 @@ const DockIcon = ({ src, title, mouseX, index, total, isMobile }: {
   const widthSync = useTransform(
     distance,
     [-50, 0, 50],
-    [56, 84, 56]
+    [56, 70, 56]
   );
 
   const scale = useSpring(widthSync, {
     mass: 0.001,
-    stiffness: 100,
-    damping: 0.15,
+    stiffness: 200,
+    damping: 15,
   });
 
   return (

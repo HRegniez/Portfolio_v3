@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState, useMemo } from "react";
 import { Heading } from "./Heading";
 import { Product } from "@/types/products";
