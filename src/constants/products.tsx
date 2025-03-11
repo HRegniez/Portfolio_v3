@@ -37,13 +37,14 @@ export const products = [
     content: (
       <div>
         <h2>Overview</h2>
-        <p>Le Petit Marché de Bruno is a <Highlight>modern e-commerce platform</Highlight> for a local grocery business in Grenoble, built with <strong>Next.js 15</strong> and <strong>TypeScript</strong>. The platform bridges traditional local commerce with innovative digital solutions, featuring a <Highlight>responsive design</Highlight> and <Highlight>smooth user experience</Highlight>.</p>
+        <p>Le Petit Marché de Bruno is a <Highlight>modern platform</Highlight> (soon to be an e-commerce platform) for a local grocery business in Grenoble, built with <strong>Next.js 15</strong>, <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, <strong>Supabase</strong> and <strong>Framer Motion</strong>. <br /> The platform bridges traditional local commerce with innovative digital solutions, featuring a <Highlight>responsive design</Highlight> and <Highlight>smooth user experience</Highlight>.</p>
         
         <h2>Key Features</h2>
         <ul>
           <li><Highlight>Modern UI/UX:</Highlight> Built with <strong>React 19</strong> and styled using <strong>Tailwind CSS</strong></li>
           <li><Highlight>Interactive Maps:</Highlight> Google Maps integration for store location</li>
           <li><Highlight>Dynamic Content:</Highlight> Real-time product updates and inventory management</li>
+          <li><Highlight>Admin Dashboard:</Highlight> for product management</li>
           <li><Highlight>Type Safety:</Highlight> Written in <strong>TypeScript</strong> for robust development</li>
         </ul>
         
@@ -59,7 +60,7 @@ export const products = [
           <li><Highlight>Local Fresh Produce:</Highlight> Fresh fruits and vegetables sourced from local producers</li>
           <li><Highlight>Specialty Grocery Items:</Highlight> Curated selection of fine grocery products</li>
           <li><Highlight>Location:</Highlight> 99 Cr Berriat, 38000 Grenoble</li>
-          <li><Highlight>Business Hours:</Highlight> Monday-Saturday: 8h-19h30, Sunday: 8h-13h</li>
+          
         </ul>
         
         <h2>Future Development</h2>
@@ -68,7 +69,6 @@ export const products = [
           <li>Order Management System</li>
           <li>Cryptocurrency Payments</li>
           <li>Inventory Management</li>
-          <li>Admin Dashboard for product management</li>
         </ul>
       </div>
     ),
@@ -127,9 +127,10 @@ export const products = [
         
         <h2>Key Features</h2>
         <ul>
+          <li><Highlight>Responsive Design:</Highlight> Mobile-first approach with fluid layouts and smooth transitions</li>
+          <li><Highlight>Image Optimization:</Highlight> Lazy loading and responsive images for better performance</li>
           <li><Highlight>Admin Dashboard:</Highlight> Secure content management system with <strong>Supabase Auth</strong></li>
           <li><Highlight>Gallery Management:</Highlight> Optimized image handling with <strong>Supabase Storage</strong></li>
-          <li><Highlight>Role-Based Access:</Highlight> Sophisticated permission system for content editing</li>
         </ul>
         
         <h2>Technical Achievements</h2>
@@ -161,7 +162,7 @@ export const products = [
         <h2>Technical Details</h2>
         <ul>
           <li>Built with <strong>Three.js</strong></li>
-          <li>Uses built-in materials including <strong>MeshStandardMaterial</strong>, <strong>MeshPhysicalMaterial</strong>, and <strong>MeshToonMaterial</strong></li>
+          <li>Uses built-in <strong>MeshPhysicalMaterial</strong></li>
           <li>Advanced lighting setup with environment mapping</li>
           <li>Multiple geometry types to showcase material interactions</li>
         </ul>
@@ -178,7 +179,7 @@ export const products = [
     description: "This is the first version of my portfolio, it was a way to improve my skills in frontend development.",
     thumbnail: portfolio01,
     images: [portfolio01, portfolio02],
-    stack: ["REACT", "SASS", "Vite"],
+    stack: ["REACT", "SASS"],
     slug: "portfolio-v1",
     content: (
       <div>
@@ -263,7 +264,6 @@ export const products = [
         <ul>
           <li><Highlight>Responsive Design:</Highlight> Mobile-first approach with fluid layouts</li>
           <li><Highlight>Interactive Elements:</Highlight> Smooth hover states and transitions</li>
-          <li><Highlight>Accessibility:</Highlight> Enhanced semantic structure and screen reader support</li>
         </ul>
       </div>
     ),
@@ -289,9 +289,6 @@ export const products = [
           <li><Highlight>Interactive animations</Highlight> for UI/UX elements to enhance user engagement</li>
           <li><Highlight>Dynamic animations</Highlight> triggered on page load to bring the content to life</li>
         </ul>
-        
-        <h3>Challenges</h3>
-        <p>There weren&apos;pt any major challenges during the development of this project, as it was mainly about refining my animation and responsive design skills.</p>
         
         <h3>Design & Styling</h3>
         <p>The design was implemented 100% based on the provided <strong>Figma</strong> template. I focused on matching the design closely while ensuring responsive behavior on all screen sizes, without deviating from the template.</p>
