@@ -28,7 +28,7 @@ export const products = [
   {
     href: "https://marche-de-bruno.vercel.app/",
     githubLink: "https://github.com/HRegniez/March-_de_Bruno",
-    title: "(In progress...) Le Petit Marché de Bruno",
+    title: "Le Petit Marché de Bruno",
     description: "Web site for a local grocery business in Grenoble, specializing in fresh fruits, vegetables, and specialty grocery items. soon to be an e-commerce platform.",
     thumbnail: marcheBruno01,
     images: [marcheBruno01, marcheBruno02],
