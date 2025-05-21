@@ -40,7 +40,7 @@ export const Sidebar = () => {
                 href="/contact"
                 onClick={() => isMobile() && setOpen(false)}
                 className={twMerge(
-                  "bg-primary text-primary-foreground shadow hover:bg-primary/90 transition duration-200 flex items-center space-x-2 py-2 px-2 mb-8 rounded-md text-sm",
+                  "bg-primary text-primary-foreground shadow hover:bg-primary/90 transition duration-200 flex items-center space-x-2 py-2 px-2 mb-8 md:mb-0 rounded-md text-sm",
                   isActive("/contact") && "bg-accent text-accent-foreground shadow-sm"
                 )}
               >
